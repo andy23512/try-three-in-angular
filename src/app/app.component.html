@@ -7,6 +7,6 @@
   <li *ngFor="let item of items; trackBy: getItemId" [style.color]="item.colorString">
     {{item.id}}
     <button (click)="removeItem(item)">Remove</button>
-    <button (click)="toggleItemVisiblity(item)">Show/Hide</button>
+    <button (click)="toggleItemVisibility(item)">Show/Hide</button>
   </li>
 </ul>

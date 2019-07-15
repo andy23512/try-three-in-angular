@@ -66,7 +66,7 @@ export class AppComponent implements AfterViewInit {
     this.items = this.items.filter(item => item.id !== deleteItem.id);
   }
 
-  toggleItemVisiblity(item) {
+  toggleItemVisibility(item) {
     item.visible = !item.visible;
   }
 
